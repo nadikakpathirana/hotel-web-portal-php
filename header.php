@@ -54,7 +54,7 @@
                 <li><a href="index.php">Home </a></li>
                 <li><a href="#">Rooms &amp; Tariff</a></li>
                 <li><a href="#">Introduction</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
