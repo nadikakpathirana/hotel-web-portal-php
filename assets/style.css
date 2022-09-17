@@ -81,6 +81,8 @@ p{
 /*nav*/
 .navbar{
     margin: 0;
+    background-color: #ededed !important;
+    border-color: #ffffff !important;
 }
 
 .navbar-nav{
@@ -106,6 +108,9 @@ p{
      background-color: unset !important;
 }
 
+/*.navbar-inverse {*/
+
+/*}*/
 /*.nav-logo{*/
 /*    padding-right: 100px;*/
 /*}*/
