@@ -52,7 +52,7 @@
 
             <ul class="nav navbar-nav">
                 <li><a href="index.php">Home </a></li>
-                <li><a href="#">Rooms &amp; Tariff</a></li>
+                <li><a href="rooms.php">Rooms &amp; Tariff</a></li>
                 <li><a href="#">Introduction</a></li>
                 <li><a href="gallery.php">Gallery</a></li>
                 <li><a href="#">Contact</a></li>
