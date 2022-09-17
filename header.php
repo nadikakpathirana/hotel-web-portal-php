@@ -51,7 +51,7 @@
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav">
-                <li><a href="#">Home </a></li>
+                <li><a href="index.php">Home </a></li>
                 <li><a href="#">Rooms &amp; Tariff</a></li>
                 <li><a href="#">Introduction</a></li>
                 <li><a href="#">Gallery</a></li>
