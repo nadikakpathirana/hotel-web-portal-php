@@ -2,7 +2,6 @@
     require_once('db.php');
     include 'header.php';
 ?>
-
     <!-- banner -->
     <div class="banner">
         <img src="images/banner/banner-pool-f15.jpg" class="img-responsive" alt="slide">
@@ -28,6 +27,56 @@
                 </div>
                 <div class="col-sm-5 col-md-4">
                     <h3>Reservation</h3>
+                    <?php
+                        require_once('db.php');
+                        $error = "";
+                        $color = "red";
+                        if(isset($_POST['submit'])){
+                            $name = mysqli_real_escape_string($con,$_POST['name']);
+                            $email = mysqli_real_escape_string($con,$_POST['email']);
+                            $phone = mysqli_real_escape_string($con,$_POST['phone']);
+                            $day = $_POST['day'];
+                            $month = $_POST['month'];
+                            $year = $_POST['year'];
+                            $adults = $_POST['no_adults'];
+                            $rooms = $_POST['no_rooms'];
+                            $message = mysqli_real_escape_string($con,$_POST['message']);
+
+                            $q = "SELECT * FROM requests ORDER BY requests.id DESC LIMIT 1";
+                            $r = mysqli_query($con, $q);
+                            if(mysqli_num_rows($r) > 0){
+                                $row = mysqli_fetch_array($r);
+                                $id = $row['id'];
+                                $id = $id + 1;
+                            }
+                            else{
+                                $id = 1;
+                            }
+
+
+                            if(empty($name) or empty($email) or empty($phone) or $adults == "no" or $rooms == "no" or empty($message) or $day == "no" or $month == "no" or $year == "no"){
+                                $error = "All Feilds Required, Try Again";
+
+                            }
+                            else{
+                                $insert_query = "INSERT INTO `requests`(`id`, `name`, `email`, `phone`, `day`, `month`, `year`, `adults`, `rooms`, `message`) VALUES ('$id','$name','$email','$phone','$day','$month','$year','$adults','$rooms','$message')";
+                                if(mysqli_query($con, $insert_query)){
+                                    $error = "We've got your request";
+                                    $color = "green";
+                                }
+                                else{
+                                    $error = "Error occured";
+                                }
+                            }
+                        }
+                    ?>
+                    <!-- show form error -->
+                    <label style="color: <?php echo $color; ?>">
+                        <?php
+                        echo $error;
+                        ?>
+                    </label>
+
                     <form role="form" class="wowload fadeInRight" method="post">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control"  placeholder="Name">
