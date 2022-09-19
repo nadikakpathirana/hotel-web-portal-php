@@ -19,6 +19,8 @@
           <img src="images/photos/<?php echo $row['image1']; ?>" class="img-responsive">
           <div class="info">
               <h3><?php echo $row['title']; ?></h3>
+              <p style="color: darkgreen;"> Size: <?php echo $row['size']; ?> sq. feet<br> Per Night: <?php echo $row['price']; ?> Taka Only</p>
+              <a href="room-details.php?id=<?php echo $row['id']; ?>" class="btn btn-default">Check Details</a>
           </div>
       </div>
   </div>
