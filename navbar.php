@@ -11,16 +11,16 @@
                         <a class="nav-link active me-2" aria-current="page" href="index.php">HOME</a>
                     </li>
                     <li class="nav-item pop">
-                        <a class="nav-link me-2" href="room.php">ROOMS</a>
+                        <a class="nav-link me-2" href="rooms.php">ROOMS</a>
                     </li>
                     <li class="nav-item pop">
-                        <a class="nav-link me-2" href="gallery-image.php">GALLERY</a>
+                        <a class="nav-link me-2" href="gallery.php">GALLERY</a>
                     </li>
                     <li class="nav-item pop">
-                        <a class="nav-link me-2" href="facilities.php">FACILITY</a>
+                        <a class="nav-link me-2" href="services.php">SERVICES</a>
                     </li>
                     <li class="nav-item pop">
-                        <a class="nav-link me-2" href="contactus.php">CONTACT US</a>
+                        <a class="nav-link me-2" href="contact.php">CONTACT US</a>
                     </li>
                     <li class="nav-item pop">
                         <a class="nav-link me-2" href="about.php">ABOUT</a>

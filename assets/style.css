@@ -4,7 +4,7 @@
 
 .h-font{
     font-family: 'Merienda', cursive;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 body{
@@ -552,9 +552,9 @@ input[type=number] {
     transition: 0.3s;
 }
 
-.gallery:hover .gallery__image {
-    filter: grayscale(1);
-}
+/*.gallery:hover .gallery__image {*/
+/*    filter: grayscale(1);*/
+/*}*/
 .gallery__column {
     display: flex;
     flex-direction: column;
@@ -566,9 +566,9 @@ input[type=number] {
     overflow: hidden;
 }
 
-.gallery__link:hover .gallery__image {
-    filter: grayscale(0);
-}
+/*.gallery__link:hover .gallery__image {*/
+/*    filter: grayscale(0);*/
+/*}*/
 
 .gallery__link:hover .gallery__caption {
     opacity: 1;
@@ -602,14 +602,22 @@ input[type=number] {
     transition: 0.3s;
 }
 
-.h-font{
-    font-family: 'Merienda', cursive;
-}
-
 
 .carousel-img {
     width: 100%;
     min-height: 400px;
     object-fit: cover;
     object-position: bottom;
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.pop:hover{
+    border-top-color:#2ec1ac !important;
+    transform:scale(1.03);
+    transition:all 0.3s;
 }

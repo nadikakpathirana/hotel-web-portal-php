@@ -1,4 +1,5 @@
 <?php include 'header.php';?>
+<?php include 'navbar.php';?>
 
 <?php
     require_once('db.php');
@@ -10,19 +11,43 @@
     }
 ?>
 <div class="container">
-<h1 class="title"><?php echo $row['title']; ?></h1>
+<h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font"><?php echo $row['title']; ?></h2>
+
  <!-- RoomDetails -->
-            <div id="RoomDetails" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                <div class="item active"><img src="images/photos/<?php echo $row['image1']; ?>" class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/<?php echo $row['image2']; ?>"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/<?php echo $row['image3']; ?>"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/<?php echo $row['image4']; ?>"  class="img-responsive" alt="slide"></div>
-                </div>
-                <!-- Controls -->
-                <a class="left carousel-control" href="#RoomDetails" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-                <a class="right carousel-control" href="#RoomDetails" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+    <div class="container mt-4">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="images/photos/<?php echo $row['image1']; ?>" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/photos/<?php echo $row['image2']; ?>" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/photos/<?php echo $row['image3']; ?>" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/photos/<?php echo $row['image4']; ?>" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   <!-- RoomCarousel-->
 
 

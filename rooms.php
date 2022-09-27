@@ -1,8 +1,8 @@
 <?php include 'header.php';?>
+<?php include 'navbar.php';?>
 
 <div class="container">
-
-<h2>Rooms &amp; Tariff</h2>
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Rooms</h2>
 
 <!-- form -->
 <div class="row">
