@@ -2,12 +2,12 @@
     <footer class="spacer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-5">
+                <div class="col-lg-3">
                     <h4>SunView</h4>
-                    <p>long description... </p>
+                    <p>This stylish SunView hotel packs a lot of value into its excellent mid-range price. It's right on the Kabalana Surf Beach and has 100+ rooms, one of which is a suite. All the rooms have direct ocean views and either a balcony or patio. The entire property has a contemporary mid-century modern style and vibe.</p>
                 </div>
 
-                <div class="col-sm-3">
+                <div class="col-lg-3">
                     <h4>Quick Links</h4>
                     <ul class="list-unstyled">
                         <li><a href="#">Rooms &amp; Tariff</a></li>
@@ -17,44 +17,53 @@
                         <li><a href="#">Admin</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-4 subscribe">
-                    <h4>Be Social With Us</h4>
+                <div class="col-lg-3 subscribe">
+                    <h4>Follow us</h4>
+                    <div class="row col-lg-4 col-md-4 col-sm-12 ">
+                        <div class="bg-white p-4 rounded mb-4 col-sm-6">
+                            <a href="" class="d-inline-block mb-3 ">
+                                <span class="badge bg-light text-dark fs-6 p-2">
+                                    <i class="bi bi-twitter me-1"></i>Twitter
+                                </span>
+                            </a>
+                            <br>
+                            <a href="" class="d-inline-block mb-3 ">
+                                <span class="badge bg-light text-dark fs-6 p-2">
+                                    <i class="bi bi-facebook me-1"></i>Facebook
+                                </span>
+                            </a>
+                            <br>
+                            <a href="" class="d-inline-block">
+                                <span class="badge bg-light text-dark fs-6 p-2">
+                                    <i class="bi bi-instagram me-1"></i>Instagram
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="social">
-                        <a href="http://www.facebook.com"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
-                        <a href="http://www.instagram.com"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
-                        <a href="http://www.twitter.com"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
-                        <a href="http://www.pinterest.com"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
-                        <a href="http://www.tumblr.com"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
-                        <a href="http://www.youtube.com"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>
+                <div class="col-lg-3 subscribe">
+                    <h4>Call us</h4>
+                    <div class="row col-lg-4 col-md-4 col-sm-12 ">
+                        <div class="bg-white p-4 rounded mb-4 col-sm-6">
+                            <a href="tel: +94761513211" class="d-inline-block mb-2 text-decoration-none text-dark">
+                                <i class="bi bi-telephone-fill"></i>+94 761513211
+                            </a>
+                            <br>
+                            <a href="tel: +94711513218" class="d-inline-block  text-decoration-none text-dark">
+                                <i class="bi bi-telephone-fill"></i>+94 711513218
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
-            <!--/.row-->
         </div>
-        <!--/.container-->
-
-        <!--/.footer-bottom-->
     </footer>
 
     <div class="text-center copyright">Copyright (c) reserved by <a href="index.php">Hotel SunView</a></div>
 
     <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
-
-
-
-
-    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-        <!-- The container for the modal slides -->
-        <div class="slides"></div>
-        <!-- Controls for the borderless lightbox -->
-        <h3 class="title">title</h3>
-        <a class="prev">‹</a>
-        <a class="next">›</a>
-        <a class="close">×</a>
-        <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    </div>
 
     <!-- jquery -->
     <script src="assets/jquery.js"></script>
