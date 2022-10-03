@@ -33,7 +33,7 @@
 
 <div class="text-center copyright">Copyright &copy; reserved by <a class="text-decoration-none" href="../index.php" target="_blank" >Hotel SunView</a></div>
 
-<a href="#" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
+<a href="#" class="toTop scroll"><i class="bi bi-arrow-up-circle-fill"></i></a>
 
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">

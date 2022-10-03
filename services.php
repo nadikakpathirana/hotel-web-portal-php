@@ -7,7 +7,7 @@
     
 
     <div class="my-5 px-4">
-        <h2 class="fw-bold h-font text-center">OUR SERVICES</h2>
+        <h2 class="fw-bold h-font text-center">Our Services</h2>
         <div class="h-line bg-dark"></div>
         <p class="text-center mt-3">
             Through our hotel we hope to provide lot of facilities to our guests.

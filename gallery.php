@@ -35,7 +35,7 @@
 
 
 <!-- image-gallery section -->
-<h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">IMAGES GALLERY</h2>
+<h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Images Gallery</h2>
 <div class="gallery wowload fadeInUp container col-lg-11 col-md-10 col-sm-9 justify">
     <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-12">

@@ -26,7 +26,6 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family:'Old Standard TT', serif;
     line-height: 1em;
     margin: 0;
 }
@@ -284,7 +283,6 @@ footer .subscribe .social a{
     position: fixed;
     right: 1em;
     bottom: 1em;
-    background:rgba(0,0,0,0.5);
     width: 35px;
     height: 35px;
     text-align: center;
@@ -294,7 +292,6 @@ footer .subscribe .social a{
 
 .toTop:hover{
     color: #fff;
-    background:rgba(0,0,0,0.8);
 }
 
 
