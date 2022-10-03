@@ -2,38 +2,38 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-5">
-                <h4>SunView</h4>
-                <p>long description... </p>
+                <h3>SunView</h3>
+                <p>This stylish SunView hotel packs a lot of value into its excellent mid-range price. It's right on the Kabalana Surf Beach and has 100+ rooms, one of which is a suite. All the rooms have direct ocean views and either a balcony or patio. The entire property has a contemporary mid-century modern style and vibe. </p>
             </div>
 
              <div class="col-sm-3">
                 <h4>Quick Links</h4>
                 <ul class="list-unstyled">
-                    <li><a href="all-rooms.php">All Rooms</a></li>
-                    <li><a href="add-room.php">Add Room</a></li>
-                    <li><a href="requests.php">Requests</a></li>
-                    <li><a href="feedback.php">Feedback</a></li>
+                    <li><a class="text-decoration-none" href="all-rooms.php">All Rooms</a></li>
+                    <li><a class="text-decoration-none" href="add-room.php">Add Room</a></li>
+                    <li><a class="text-decoration-none" href="requests.php">Requests</a></li>
+                    <li><a class="text-decoration-none" href="feedback.php">Feedback</a></li>
                 </ul>
             </div>
              <div class="col-sm-4 subscribe">
                 <h4>Be Social With Us</h4>
 
                 <div class="social">
-                <a href="http://www.facebook.com"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
-                <a href="http://www.instagram.com"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
-                <a href="http://www.twitter.com"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
-                <a href="http://www.pinterest.com"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
-                <a href="http://www.tumblr.com"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
-                <a href="http://www.youtube.com"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>
+                <a  href="http://www.facebook.com"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
+                <a  href="http://www.instagram.com"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
+                <a  href="http://www.twitter.com"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
+                <a  href="http://www.pinterest.com"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
+                <a  href="http://www.tumblr.com"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
+                <a  href="http://www.youtube.com"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>
                 </div>
             </div>
         </div>
     </div>
 </footer>
 
-<div class="text-center copyright">Copyright (c) reserved by <a href="../index.php" target="_blank" >Hotel SunView</a></div>
+<div class="text-center copyright">Copyright &copy; reserved by <a class="text-decoration-none" href="../index.php" target="_blank" >Hotel SunView</a></div>
 
-<a href="#" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
+<a href="#" class="toTop scroll"><i class="bi bi-arrow-up-circle-fill"></i></a>
 
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
